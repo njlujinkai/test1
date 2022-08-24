@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/lujinkai/通讯录2.0'
+gcc main.c -c -o main.o
+gcc func.c -c -o func.o
+gcc mystr.c -c -o mystr.o
+gcc funcAdd.c -c -o funcAdd.o
+gcc funcDelete.c -c -o funcDelete.o
+gcc funcFix.c -c -o funcFix.o
+gcc funcSearch.c -c -o funcSearch.o
+gcc main.o func.o mystr.o funcAdd.o funcDelete.o funcFix.o funcSearch.o -o run
+make: Leaving directory '/home/lujinkai/通讯录2.0'
+ 
